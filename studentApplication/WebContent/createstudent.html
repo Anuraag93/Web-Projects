@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Create Student</title>
+<link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+	<fieldset style="width:auto;border: none;">
+		<legend>New Student Details</legend>
+		
+		<form action="http://localhost:8080/studentApplication/CreateStudentServlet" method="post"><br>
+		<table align="center">
+		
+			<tr>
+			<td>Register no :</td>
+			<td><input type="number" name="regno" placeholder="Enter RegNo."></td>
+			</tr>
+			<tr>
+			<td>First Name :</td>
+			<td><input type="text" name="fname" placeholder="Enter FirstName"></td>
+			</tr>
+			<tr>
+			<td>Middle Name :</td>
+			<td><input type="text" name="mname" placeholder="Enter MiddleName"></td>
+			</tr>
+			<tr>
+			<td>Last Name :</td>
+			<td><input type="text" name="lname" placeholder="Enter LastName"></td>
+			</tr>
+			<tr>
+			<td>Guardian First Name :</td>
+			<td><input type="text" name="gfname" placeholder="Enter Guardian FirstName"></td>
+			</tr>
+			<tr>
+			<td>Guardian Middle Name :</td>
+			<td><input type="text" name="gmname" placeholder="Enter Guardian MiddleName"></td>
+			</tr>
+			<tr>
+			<td>Guardian Last Name :</td>
+			<td><input type="text" name="glname" placeholder="Enter Guardian LastName"></td>
+			</tr>
+			<tr>
+			<td>Password :</td>
+			<td><input type="password" name="psswrd" placeholder="Enter Password"></td>
+			</tr>
+			<tr>
+			<td>Is Admin? :</td>
+			<td><select name="isAdmin">
+					<option value="select">...Select...</option>
+					<option value="Yes">Yes</option>
+					<option value="No">No</option>
+				</select></td>
+			</tr>
+			<tr>
+			<td><input type="reset" value="Reset"></td>
+			<td><input type="submit" value="Insert"></td>
+			</tr>
+			
+		</table>	
+		</form>
+	</fieldset>
+
+</body>
+
+</html>

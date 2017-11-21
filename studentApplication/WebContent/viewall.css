@@ -1,0 +1,22 @@
+table {
+	border-collapse: collapse;
+	
+}
+table, td, th {
+	border: 1px solid tomato;
+	padding: 10px;
+	text-align: center;
+	width:auto;
+}
+legend{
+	border: 1px solid dodgerblue;
+}
+.danger{background-color:red;}
+a:link{color:white;}
+a:visited{color:white;}
+a:hover{color:dodgerblue;}
+a:active{color:black;}
+.change{background-color:mediumseagreen;} 
+body{background-color: lavender;text-align: center;} 
+fieldset{width:auto;border: none;}
+					

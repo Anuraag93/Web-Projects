@@ -1,0 +1,25 @@
+
+body{
+	text-align: center;
+	background:none transparent; 
+	padding-left:50px;
+	color: white;
+}
+div#right-corner{
+	float: right;
+}
+a.left{
+	float: left;
+	color: white;
+	padding: 0 50px 0 50px;
+	text-decoration: none;
+	
+}
+ul#list1{
+	list-style-type: none;
+	
+}
+body#main{
+	background-image: url("image/background.jpg");
+	padding-left:0;
+}

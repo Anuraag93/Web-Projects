@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>HomePage</title>
+<link rel="stylesheet" href="homepage.css">
+<style>li{font-size: 25px;}</style>
+</head>
+<body id="main">
+	<div>
+	<h1 style="font-size: 80px;">Don Bosco School</h1>
+	<div id="right-corner">
+		<form action="http://localhost:8080/studentApplication/GoogleSearch" method="post">
+			<input type="text" name="search" placeholder="Google Search"> <input type="submit" value="Search">
+		</form>
+	</div><br>
+	<div>
+	<ul id="list1">
+		<li><a class="left" href="createstudent.html" target="create">New Student</a><li>
+		<li><a class="left" href="history.html" target="create">History</a><li>
+		<li><a class="left" href="login.html" target="create">Log In</a><li>
+		<li><a class="left" href="changepassword.html" target="create">Change Password</a><li>
+		<li><a class="left" href="viewall.html" target="create">View All</a><li>
+		<li><a class="left" href="searchstudent.html" target="create">Search Student</a><li>
+	</ul>
+	</div>
+	</div><br>
+	<br><hr style="border-color: dodgerblue;"><br>
+	<div>
+		<iframe src="history.html" name="create" style="border: none; width: 75%; height: 900px;"></iframe>
+	</div>
+</body>
+</html>
