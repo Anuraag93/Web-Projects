@@ -8,4 +8,8 @@ Web Application:
 
 Snapshots: 
 
-![screen shot](https://github.com/Anuraag93/Web-Projects/blob/master/studentApplication/Snapshots/studentApplication.jpg)
+![screen shot 1](https://github.com/Anuraag93/Web-Projects/blob/master/studentApplication/Snapshots/studentApplication.jpg)
+
+![screen shot 2](https://github.com/Anuraag93/Web-Projects/blob/master/studentApplication/Snapshots/studentApplication1.jpg)
+
+![screen shot 3](https://github.com/Anuraag93/Web-Projects/blob/master/studentApplication/Snapshots/studentApplication2.jpg)
